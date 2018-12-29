@@ -1,0 +1,34 @@
+{
+    "name": "wigax/wigax",
+    "type": "project",
+    "description": "The Wigax framework.",
+    "keywords": [
+        "framework",
+        "wigax",
+        "widget"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "gabordemooij/redbean": "dev-master",
+        "latte/latte": "dev-master",
+        "wigax/core": "dev-master"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
